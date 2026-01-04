@@ -1,36 +1,26 @@
-# cloud-website-deployment
-Deployed a static website using Nginx on Ubuntu VM
 # Cloud Website Deployment
 
-## 📌 Project Overview
-This project demonstrates how to deploy a static website using **Nginx on Ubuntu Linux** inside a virtual machine environment.
+Deployed a static website using **Nginx** on an **Ubuntu Virtual Machine** (VirtualBox).
 
-The goal of this project is to understand basic cloud/server concepts such as web servers, Linux administration, and website hosting — without using paid cloud services.
-
----
-
-## 🛠 Tools & Technologies Used
-- Ubuntu Linux (Virtual Machine)
+## Tech Stack
+- Ubuntu Linux
 - Nginx Web Server
 - VirtualBox
-- HTML & CSS
-- Linux Terminal
+- HTML / CSS
 
----
+## What I Did
+- Created an Ubuntu VM using VirtualBox
+- Installed and configured Nginx
+- Deployed a static website in `/var/www/html`
+- Verified deployment via browser and system services
 
-## 🚀 Steps Performed
-1. Installed Ubuntu on VirtualBox
-2. Installed and configured Nginx web server
-3. Created a custom HTML webpage
-4. Deployed the webpage in `/var/www/html`
-5. Verified deployment using browser and service status
+## Deployment Proof
 
----
+### Nginx Service Running
+![Nginx Status](Screenshot from 2026-01-04 14-07-36.png)
 
-## ✅ Key Commands Used
-```bash
-sudo apt update
-sudo apt install nginx
-sudo systemctl status nginx
-cd /var/www/html
-sudo nano index.html
+### Website Deployed on Ubuntu VM
+![Website Running](Screenshot from 2026-01-04 14-07-57.png)
+
+### Terminal Verification
+![Terminal Proof](Screenshot from 2026-01-04 14-08-17.png)
